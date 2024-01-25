@@ -84,6 +84,8 @@ To perform a traceroute, run the following command in your terminal:
 ```bash
 python tcp_tracerouter.py -t <target_domain_or_ip> -m <max_hops> -p <destination_port>
 
+python tcp_tracerouter.py -t example.com -m 20 -p 80
+
 -t: Specify the target domain or IP address.
 -m: Set the maximum number of hops (default is 30).
 -p: Specify the TCP destination port (default is 80).
